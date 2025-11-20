@@ -49,11 +49,12 @@ This proves that permissions are enforced correctly even inside automated tests.
 
 ## 🧱 Project Structure
 
+```
 .
 ├── rag.go                 # Minimal RAG pipeline with SpiceDB post-filtering
 ├── rag_spicedb_test.go    # Main test using Testcontainers + SpiceDB
 └── go.mod                 # Dependencies
-
+```
 
 No external vector DBs or LLMs are used here — the goal is to keep the demo lightweight and focused on **authorization testing**.
 
